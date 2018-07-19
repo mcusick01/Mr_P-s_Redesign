@@ -1,0 +1,175 @@
+/*Index.html styles*/
+
+/*WHOLE PAGE STYLES*/
+body * {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+/*MAIN DIV STYLES*/
+div#main {
+  height: auto;
+  background-color: #000000;
+}
+
+div#main img {
+    width: 100%;
+    height: 90%;
+    opacity: 0.3;
+}
+
+#logo_txt_ctr {
+  bottom: 35vw;
+  right: 33vw;
+}
+
+#address_ctr {
+  bottom: 6vw;
+}
+
+div#body {
+  background: #660020;
+}
+
+/*SECTION 2  CARD STYLES*/
+.card {
+  background: #fce6bb;
+  margin: 35px;
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,1);
+  border: none;
+  width: 100%;
+}
+
+.card-text {
+  font-size: 2vw;
+}
+
+.carousel {
+  margin-top: 35px;
+  margin-right: 35px;
+  padding-bottom: 50px;
+  border-bottom: 25px double #fce6bb;
+}
+
+.carousel-inner {
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,1);
+}
+
+/*MAP FOOTER STYLES*/
+.mapouter {
+  height:350px;
+}
+
+.gmap_canvas, .gmap_canvas * {
+  height: 100%;
+  width: 100%;
+  overflow:hidden;
+  background:none!important;
+}
+
+/*ABOUT US STYLES*/
+#about_row {
+  padding-bottom: 50px;
+}
+
+#about {
+  margin-top: 45px;
+  background: #fce6bb;
+  border: 25px double #660020;
+}
+
+#about_title {
+  font-family: 'Bree Serif', serif;
+  font-size: 75px;
+}
+
+#about_section {
+  margin: 10px;
+}
+
+.para {
+  margin: 20px;
+}
+
+/*PAGE TEXT STYLES*/
+#logo_txt {
+  font-family: 'Bree Serif', serif;
+  font-size: 4.5vw;
+  color: white;
+}
+
+#address, #address_line2 {
+  font-size: 2vw;
+  color: white;
+  line-height: 30px;
+}
+
+#address_line2 {
+  font-style: italic;
+}
+
+#logo_txt:hover {
+  cursor: pointer;
+}
+
+/*FOOTER NAV STYLES*/
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+#footer_nav {
+  background: #000000;
+  align-items: center;
+}
+
+#footer_nav * {
+  color: white;
+  padding: 7px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-size: 2vw;
+}
+
+/*MEDIA QUERIES*/
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    #logo_txt {
+      font-size: 15vw;
+    }
+
+    #logo_txt_ctr {
+      bottom: 80vw;
+      right: auto;
+    }
+
+    #footer_nav * {
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+      font-size: 5vw;
+    }
+ }
+
+/*/Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+
+ }
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+
+ }
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+
+ }
