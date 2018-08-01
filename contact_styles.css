@@ -25,3 +25,9 @@ div#body {
   text-decoration: none;
   font-size: 2vw;
 }
+
+/*BODY STYLES*/
+section#contact_form, section#res_link {
+  background: #fce6bb;
+  border: 25px double #660020;
+}
