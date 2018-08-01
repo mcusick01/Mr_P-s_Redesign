@@ -1,0 +1,26 @@
+/*contact.htm styles*/
+
+/*WHOLE PAGE STYLES*/
+body * {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+div#body {
+  background: #660020;
+}
+
+/*NAV STYLES*/
+#footer_nav {
+  background: #000000;
+  align-items: center;
+}
+
+#footer_nav * {
+  color: white;
+  padding: 7px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-size: 2vw;
+}
