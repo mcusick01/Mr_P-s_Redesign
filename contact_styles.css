@@ -8,6 +8,7 @@ body * {
 
 div#body {
   background: #660020;
+  height: auto;
 }
 
 /*NAV STYLES*/
