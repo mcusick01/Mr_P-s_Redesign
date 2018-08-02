@@ -27,7 +27,56 @@ div#body {
 }
 
 /*BODY STYLES*/
-section#contact_form, section#res_link {
+#contact_form, #res_link {
   background: #fce6bb;
   border: 25px double #660020;
+}
+
+.container {
+  padding-top: 2%;
+}
+
+div#address_phone {
+  margin-top: 30px;
+}
+
+div#link {
+  padding: 10px;
+}
+
+/*CONTACT FORM STYLES*/
+form {
+  margin-top: 20px;
+}
+
+form * {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+  padding: 5px;
+}
+
+input[type="text"] {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  height: 35%;
+  overflow-y: scroll;
+}
+
+/*RESERVATION TOOL LINK STYLES*/
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 2vw;
+}
+
+section#res_link:hover, section#res_link:hover * {
+  color: white;
+  text-decoration: none;
+  background-color: #91856d;
 }
